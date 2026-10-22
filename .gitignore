@@ -1,0 +1,7 @@
+firmware/build/
+firmware/managed_components/
+**/__pycache__/
+*.pyc
+tools/probe_out.json
+tools/daemon-run.log
+research/samples/

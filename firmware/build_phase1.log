@@ -1,0 +1,296 @@
+Executing action: all (aliases: build)
+Running make in directory /home/hatch/workspace/paseo-passport-fw/firmware/build
+Executing "make -j 4 all"...
+[  0%] Built target custom_bundle
+[  0%] Built target memory_ld_in_preprocess
+[  0%] Built target partition_table_bin
+[  0%] Built target sections_ld_in_preprocess
+[  0%] Built target _project_elf_src
+[  1%] Built target blank_ota_data
+[  1%] Built target lang_header
+[  1%] Built target generated_default_assets
+[  1%] Performing build step for 'bootloader'
+[  1%] Built target __idf_esp_http_server
+[  1%] Built target __idf_esp-tls
+[  2%] Built target __idf_http_parser
+[  2%] Built target _project_elf_src
+[  9%] Built target __idf_log
+[  9%] Built target bootloader_ld_in_preprocess
+[  3%] Built target __idf_esp_gdbstub
+[ 16%] Built target __idf_esp_rom
+[  3%] Built target __idf_esp_wifi
+[ 17%] Built target __idf_esp_common
+[  3%] Built target __idf_esp_coex
+[ 24%] Built target __idf_esp_hw_support
+[ 25%] Built target __idf_esp_system
+[ 32%] Built target __idf_efuse
+[  7%] Built target __idf_wpa_supplicant
+[  8%] Built target __idf_esp_phy
+[ 48%] Built target __idf_bootloader_support
+[ 51%] Built target __idf_esp_security
+[  9%] Built target __idf_nvs_flash
+[ 56%] Built target __idf_esp_hal_ana_conv
+[  9%] Built target __idf_nvs_sec_provider
+[ 60%] Built target __idf_esp_hal_uart
+[  9%] Built target __idf_esp_netif
+[ 63%] Built target __idf_esp_hal_wdt
+[ 65%] Built target __idf_esp_hal_timg
+[ 66%] Built target __idf_micro-ecc
+[ 13%] Built target __idf_lwip
+[ 67%] Built target __idf_esp_bootloader_format
+[ 13%] Built target __idf_vfs
+[ 68%] Built target __idf_spi_flash
+[ 13%] Built target __idf_esp_driver_usb_serial_jtag
+[ 70%] Built target __idf_esp_hal_clock
+[ 14%] Built target __idf_esp_driver_uart
+[ 75%] Built target __idf_esp_hal_gpspi
+[ 14%] Built target __idf_esp_event
+[ 77%] Built target __idf_esp_hal_dma
+[ 14%] Built target __idf_esp_psram
+[ 79%] Built target __idf_esp_hal_pmu
+[ 14%] Built target __idf_esp_ringbuf
+[ 80%] Built target __idf_esp_hal_usb
+[ 15%] Built target __idf_soc
+[ 84%] Built target __idf_esp_hal_gpio
+[ 15%] Built target __idf_cxx
+[ 89%] Built target __idf_soc
+[ 16%] Built target __idf_pthread
+[ 91%] Built target __idf_riscv
+[ 95%] Built target __idf_hal
+[ 18%] Built target __idf_esp_libc
+[ 97%] Built target __idf_main
+[ 19%] Built target __idf_freertos
+[ 98%] Built target bootloader.elf
+[100%] Built target gen_bootloader_binary
+[100%] Built target gen_project_binary
+[ 22%] Built target __idf_esp_hw_support
+[ 22%] Built target __idf_esp_hal_i2s
+Bootloader binary size 0x3a80 bytes. 0x4580 bytes (54%) free.
+[ 22%] Built target __idf_esp_hal_pmu
+[100%] Built target bootloader_check_size
+[100%] Built target app
+[ 22%] Built target __idf_esp_hal_usb
+[ 22%] No install step for 'bootloader'
+[ 22%] Built target __idf_esp_hal_gpio
+[ 22%] Completed 'bootloader'
+[ 22%] Built target __idf_hal
+[ 22%] Built target bootloader
+[ 22%] Built target __idf_heap
+[ 22%] Built target __idf_log
+[ 23%] Built target __idf_esp_rom
+[ 23%] Built target __idf_esp_common
+[ 24%] Built target __idf_esp_system
+[ 25%] Built target __idf_spi_flash
+[ 26%] Built target __idf_bootloader_support
+[ 26%] Built target __idf_esp_hal_ana_conv
+[ 26%] Built target __idf_esp_hal_wdt
+[ 27%] Built target tfpsacrypto
+[ 28%] Built target mbedtls
+[ 29%] Built target mbedx509
+[ 32%] Built target builtin
+[ 32%] Built target p256m
+[ 32%] Built target everest
+[ 32%] Built target __idf_mbedtls
+[ 33%] Built target __idf_esp_driver_dma
+[ 33%] Built target __idf_esp_mm
+[ 33%] Built target __idf_esp_pm
+[ 34%] Built target __idf_esp_hal_uart
+[ 34%] Built target __idf_esp_driver_gpio
+[ 34%] Built target __idf_esp_security
+[ 35%] Built target __idf_esp_timer
+[ 35%] Built target __idf_esp_hal_timg
+[ 36%] Built target __idf_efuse
+[ 36%] Built target __idf_esp_partition
+[ 36%] Built target __idf_app_update
+[ 36%] Built target __idf_esp_bootloader_format
+[ 36%] Built target __idf_esp_app_format
+[ 36%] Built target __idf_esp_hal_security
+[ 37%] Built target __idf_esp_hal_mspi
+[ 37%] Built target __idf_esp_hal_clock
+[ 38%] Built target __idf_esp_hal_gpspi
+[ 38%] Built target __idf_esp_hal_dma
+[ 38%] Built target __idf_esp_stdio
+[ 38%] Built target __idf_riscv
+[ 38%] Built target __idf_esp_hal_twai
+[ 38%] Built target __idf_esp_hal_i2c
+[ 38%] Built target __idf_esp_driver_spi
+[ 38%] Built target __idf_esp_driver_i2s
+[ 38%] Built target __idf_esp_hal_ledc
+[ 38%] Built target __idf_esp_driver_tsens
+[ 39%] Built target __idf_wear_levelling
+[ 40%] Built target __idf_console
+[ 40%] Built target __idf_sdmmc
+[ 40%] Built target __idf_tweetnacl
+[ 40%] Built target __idf_tcp_transport
+[ 40%] Built target mqtt_outbox_lib
+[ 40%] Built target mqtt_utils_lib
+[ 40%] Built target __idf_78__uart-uhci
+[ 40%] Built target __idf_espressif__cjson
+[ 40%] Built target __idf_espressif__iot_eth
+[ 40%] Built target __idf_cube32esp__xpowerslib
+[ 41%] Built target __idf_esp_adc
+[ 41%] Built target __idf_spiffs
+[ 42%] Built target __idf_espressif__dl_fft
+[ 42%] Built target __idf_espressif__esp_audio_codec
+[ 42%] Built target __idf_espressif__gmf_fft
+[ 42%] Built target __idf_espressif__esp_io_expander
+[ 42%] Built target __idf_espressif__knob
+[ 42%] Built target __idf_espressif__esp_mmap_assets
+[ 50%] Built target __idf_espressif__esp-dsp
+[ 50%] Built target __idf_esp_hal_rmt
+[ 50%] Built target __idf_laride__heatshrink
+[ 50%] Built target __idf_espressif2022__image_player
+[ 50%] Built target __idf_esp_driver_i2c
+[ 50%] Built target __idf_driver
+[ 50%] Built target __idf_esp_eth
+[ 52%] Built target freetype
+[ 52%] Built target __idf_esp_driver_ledc
+[ 52%] Built target __idf_esp_driver_sdspi
+[ 52%] Built target __idf_esp_driver_sd_intf
+[ 53%] Built target __idf_espressif__esp_websocket_client
+[ 53%] Built target __idf_espressif__mqtt
+[ 79%] Built target __idf_lvgl__lvgl
+[ 79%] Built target __idf_esp-wifi-connect
+[ 79%] Built target __idf_78__uart-eth-modem
+[ 79%] Built target __idf_espressif__adc_battery_estimation
+[ 79%] Built target __idf_espressif__servo
+[ 80%] Built target __idf_espressif__mdns
+[ 80%] Built target __idf_espressif__button
+[ 80%] Built target __idf_espressif__esp-sr
+[ 81%] Built target __idf_espressif__esp_io_expander_tca9554
+[ 82%] Built target __idf_espressif__esp_codec_dev
+[ 82%] Built target __idf_espressif__esp_io_expander_tca95xx_16bit
+[ 83%] Built target __idf_esp_driver_rmt
+[ 83%] Built target __idf_waveshare__custom_io_expander_ch32v003
+[ 83%] Built target __idf_esp_lcd
+[ 84%] Built target __idf_fatfs
+[ 83%] Built target __idf_espressif__i2c_bus
+[ 84%] Building C object esp-idf/paseo_client/CMakeFiles/__idf_paseo_client.dir/paseo_client.c.obj
+[ 84%] Built target __idf_78__esp_lcd_nv3023
+[ 84%] Building C object esp-idf/paseo_client/CMakeFiles/__idf_paseo_client.dir/paseo_offer.c.obj
+[ 85%] Built target __idf_78__esp-ml307
+[ 86%] Built target __idf_78__xiaozhi-fonts
+[ 87%] Built target __idf_espfriends__servo_dog_ctrl
+[ 87%] Built target __idf_espressif__esp_lcd_co5300
+[ 87%] Built target __idf_espressif__esp_lcd_gc9a01
+[ 87%] Built target __idf_espressif__esp_lcd_ili9341
+[ 87%] Building C object esp-idf/paseo_client/CMakeFiles/__idf_paseo_client.dir/pbase64.c.obj
+[ 87%] Built target __idf_espressif__esp_lcd_panel_io_additions
+[ 87%] Built target __idf_espressif__esp_lcd_spd2010
+[ 88%] Built target __idf_espressif__esp_lcd_st77916
+[ 88%] Built target __idf_espressif__esp_lcd_st77922
+[ 88%] Built target __idf_espressif__led_strip
+[ 88%] Built target __idf_m5stack__m5ioe1
+[ 89%] Built target __idf_tny-robotics__sh1106-esp-idf
+[ 89%] Built target __idf_waveshare__esp_lcd_sh8601
+[ 89%] Built target __idf_m5stack__m5pm1
+[ 89%] Built target __idf_espressif__esp_lcd_touch
+[ 90%] Built target __idf_espressif__bq27220
+[ 90%] Built target __idf_waveshare__esp_lcd_touch_cst9217
+[ 90%] Built target __idf_espressif__esp_lcd_axs15231b
+[ 90%] Built target __idf_espressif__esp_lcd_touch_ft5x06
+[ 90%] Built target __idf_espressif__esp_lcd_touch_cst816s
+[ 90%] Built target __idf_espressif__esp_lcd_touch_gt911
+[ 90%] Built target __idf_espressif__esp_lcd_touch_gt1151
+[ 90%] Built target __idf_espressif__esp_lcd_touch_st7123
+[ 90%] Built target lvgl_port_lib
+[ 92%] Built target __idf_espressif2022__esp_emote_gfx
+[ 92%] Built target __idf_espressif2022__esp_emote_expression
+[ 92%] Linking C static library libpaseo_client.a
+[ 92%] Built target __idf_paseo_client
+[ 92%] Building CXX object esp-idf/main/CMakeFiles/__idf_main.dir/paseo_app.cc.obj
+[ 92%] Linking C static library libmain.a
+[ 97%] Built target __idf_main
+[ 97%] Generating esp-idf/esp_system/ld/sections.ld
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:58: SR_WN_WN9S_HILEXIN: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:62: SR_WN_WN9S_HIESP: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:66: SR_WN_WN9S_NIHAOXIAOZHI: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:70: SR_WN_WN9S_HIJASON: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:79: SR_WN_WN9_HILEXIN: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:83: SR_WN_WN9_HIESP: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:87: SR_WN_WN9L_JA_KONNICHIHAESP_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:91: SR_WN_WN9L_FR_BONJOURESP_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:95: SR_WN_WN9_NIHAOMIAOBAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:99: SR_WN_WN9_XIAOAITONGXUE: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:103: SR_WN_WN9L_XIAOAITONGXUE: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:107: SR_WN_WN9_NIHAOXIAOZHI_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:111: SR_WN_WN9L_NIHAOXIAOZHI_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:115: SR_WN_WN9_ALEXA: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:119: SR_WN_WN9_JARVIS_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:123: SR_WN_WN9_COMPUTER_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:127: SR_WN_WN9_HEYWILLOW_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:131: SR_WN_WN9_HIMFIVE: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:135: SR_WN_WN9_SOPHIA_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:139: SR_WN_WN9_HEYWANDA_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:143: SR_WN_WN9_HIJOLLY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:147: SR_WN_WN9_HIFAIRY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:151: SR_WN_WN9_HEYPRINTER_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:155: SR_WN_WN9_MYCROFT_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:159: SR_WN_WN9_HIJOY_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:163: SR_WN_WN9_HIJASON_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:167: SR_WN_WN9_ASTROLABE_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:171: SR_WN_WN9_HEYILY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:175: SR_WN_WN9_BLUECHIP_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:179: SR_WN_WN9_HIANDY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:183: SR_WN_WN9_HEYIVY_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:187: SR_WN_WN9L_HISTACKCHAN_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:191: SR_WN_WN9_HEYKIRA_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:195: SR_WN_WN9L_HEYGIGI_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:199: SR_WN_WN9_XIAOLONGXIAOLONG_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:203: SR_WN_WN9_HIMIAOMIAO_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:207: SR_WN_WN9_MIAOMIAOTONGXUE_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:211: SR_WN_WN9_NIHAOXIAOXIN_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:215: SR_WN_WN9_XIAOMEITONGXUE_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:219: SR_WN_WN9_HILILI_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:223: SR_WN_WN9_HITELLY_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:227: SR_WN_WN9_XIAOBINXIAOBIN_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:231: SR_WN_WN9_HAIXIAOWU_TTS: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:235: SR_WN_WN9_XIAOYAXIAOYA_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:239: SR_WN_WN9_LINAIBAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:243: SR_WN_WN9_XIAOSUROU_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:247: SR_WN_WN9_XIAOYUTONGXUE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:251: SR_WN_WN9_XIAOMINGTONGXUE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:255: SR_WN_WN9_XIAOKANGTONGXUE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:259: SR_WN_WN9_XIAOJIANXIAOJIAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:263: SR_WN_WN9_XIAOTEXIAOTE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:267: SR_WN_WN9_NIHAOXIAOYI_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:271: SR_WN_WN9_NIHAOBAIYING_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:275: SR_WN_WN9_NIHAODONGDONG_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:279: SR_WN_WN9_HIWALLE_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:283: SR_WN_WN9_XIAOLUXIAOLU_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:287: SR_WN_WN9_NIHAOXIAOAN_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:291: SR_WN_WN9_NI3HAO3XIAO3MAI4_TTS2: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:295: SR_WN_WN9_NI3HAO3XIAO3RUI4_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:299: SR_WN_WN9_HAI1XIAO3OU1_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:303: SR_WN_WN9_XIAO3JIA1XIAO3JIA1_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:307: SR_WN_WN9_XIAO3FENG1XIAO3FENG1_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:311: SR_WN_WN9_HAI1XIAO3XIANG4_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/managed_components/espressif__esp-sr/Kconfig.projbuild:315: SR_WN_WN9L_NI3HAO3XING1BAO3_TTS3: 'default False' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/esp/esp-idf-v6.0.1/components/bt/host/nimble/Kconfig.in:1421: BT_NIMBLE_MESH_PROVISIONER: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/esp/esp-idf-v6.0.1/components/fatfs/Kconfig:230: FATFS_PRINT_LLI: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/esp/esp-idf-v6.0.1/components/fatfs/Kconfig:235: FATFS_PRINT_FLOAT: 'default 0' is not a valid bool value (only 'y' and 'n' are allowed). Value is treated as 'n'.
+NOTE: /home/hatch/workspace/paseo-passport-fw/firmware/main/Kconfig.projbuild:380: Trying to set symbol WAKE_WORD_DISABLED to n, but it is currently selected by choice WAKE_WORD_TYPE. For setting it to n, set another choice symbol to y instead.
+[ 97%] Built target __ldgen_output_sections.ld
+[ 98%] Linking CXX executable xiaozhi.elf
+[ 98%] Built target xiaozhi.elf
+[100%] Generating binary image from built executable
+esptool v5.5.0
+Creating ESP32-C3 image...
+Merged 3 ELF sections.
+Successfully created ESP32-C3 image.
+Generated /home/hatch/workspace/paseo-passport-fw/firmware/build/xiaozhi.bin
+[100%] Built target gen_xiaozhi_binary
+[100%] Built target gen_project_binary
+xiaozhi.bin binary size 0x1f2f30 bytes. Smallest app partition is 0x2f0000 bytes. 0xfd0d0 bytes (34%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+
+Project build complete. To flash, run:
+ idf.py flash
+or
+ idf.py -p PORT flash
+or
+ python -m esptool --chip esp32c3 -b 460800 --before default-reset --after hard-reset write-flash --flash-mode dio --flash-size 8MB --flash-freq 80m 0x0 build/bootloader/bootloader.bin 0x8000 build/partition_table/partition-table.bin 0xd000 build/ota_data_initial.bin 0x20000 build/xiaozhi.bin 0x600000 build/generated_assets.bin
+or from the "/home/hatch/workspace/paseo-passport-fw/firmware/build" directory
+ python -m esptool --chip esp32c3 -b 460800 --before default-reset --after hard-reset write-flash "@flash_args"
+BUILD_EXIT=0
